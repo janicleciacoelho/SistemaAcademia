@@ -1,4 +1,4 @@
 package com.sistema.academia.internal.repository;
 
-public class Cliente {
+public interface RegistroDeAcessoRepository {
 }
