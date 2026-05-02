@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Matricula {
+public class MatriculaEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
