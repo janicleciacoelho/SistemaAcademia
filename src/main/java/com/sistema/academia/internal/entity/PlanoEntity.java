@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Plano {
+public class PlanoEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

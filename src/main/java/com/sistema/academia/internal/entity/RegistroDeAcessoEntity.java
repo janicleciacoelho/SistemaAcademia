@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RegistroDeAcesso {
+public class RegistroDeAcessoEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
