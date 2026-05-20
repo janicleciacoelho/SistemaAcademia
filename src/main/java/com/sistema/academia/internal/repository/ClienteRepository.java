@@ -1,4 +1,7 @@
 package com.sistema.academia.internal.repository;
 
-public class ClienteRepository {
+import com.sistema.academia.internal.entity.Cliente;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
 }
