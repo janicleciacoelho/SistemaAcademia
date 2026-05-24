@@ -1,4 +1,14 @@
 package com.sistema.academia.internal.matricula.dto;
 
-public class MatriculaResponseRecord {
+import java.time.LocalDate;
+
+public record MatriculaResponseRecord(
+
+        Long id,
+        String aluno,
+        LocalDate dataMatricula,
+        String status,
+        String plano
+
+) {
 }
