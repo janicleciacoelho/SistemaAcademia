@@ -1,4 +1,11 @@
 package com.sistema.academia.internal.plano.dto;
 
-public class PlanoResponseRecord {
+public record PlanoResponseRecord(
+
+        Long id,
+        String nome,
+        Double valor,
+        Integer duracaoDias
+
+) {
 }
